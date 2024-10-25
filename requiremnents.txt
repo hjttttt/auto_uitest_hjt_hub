@@ -1,0 +1,6 @@
+webdriver-helper
+pytest
+pytest-rerunfailures
+allure-pytest
+openpyxl
+pytest-order

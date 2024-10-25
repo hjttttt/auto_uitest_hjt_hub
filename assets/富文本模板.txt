@@ -1,0 +1,127 @@
+<p><span style="color: #e03e2d;"><em><span style="font-size: 24px;"><strong>这是文字<span style="background-color: #2dc26b;">ABC</span></strong></span></em></span><br /><br /></p>
+<p><span style="font-size: 24px;"><a title="百度两下~" href="http://www.baidu.com">百度链接</a></span></p>
+<ul>
+<li><span style="color: #000000; background-color: #ffffff; font-size: 18px;"><span style="background-color: #ffffff;">第一章</span></span></li>
+<li><span style="color: #000000; background-color: #ffffff; font-size: 18px;"><span style="background-color: #ffffff;">第二章</span></span></li>
+<li><span style="color: #000000; background-color: #ffffff; font-size: 18px;"><span style="background-color: #ffffff;">第三章</span></span></li>
+</ul>
+<p>在唐僧师徒四人历经千辛万苦，跋山涉水之后，终于来到了一座高山脚下。这座山峰巍峨壮丽，云雾缭绕，给人一种神秘而庄严的感觉。唐僧心中暗自庆幸，因为传闻中此处便是取经路上的最后一道关卡&mdash;&mdash;火焰山。</p>
+<p>&ldquo;师父，这火焰山上火势炽烈，我们该如何过去？&rdquo;猪八戒忧心忡忡地问道。</p>
+<p>唐僧皱眉思索片刻，说道：&ldquo;这火焰山乃是天河之火积聚而成，火势难以抵挡。但我们取经的使命在肩，必须走过此山，只能依赖大家的智慧和勇气。&rdquo;</p>
+<p>孙悟空眉头一皱，突然灵机一动，说道：&ldquo;师父，我有一计，或许能帮我们渡过火焰山。&rdquo;</p>
+<p>&nbsp;</p>
+<p>他将计划告诉大家后，大家都觉得可行，便按照计划开始行动。孙悟空先化身为一只巨大的火鸟，以身躯挡住了火焰山喷发的熊熊烈焰，为唐僧师徒争取了宝贵的时间。</p>
+<p>唐僧和猪八戒、沙悟净趁机快速穿越了火焰山，到达了山的另一侧。他们看到孙悟空浑身被火焰包围，狼狈不堪，但仍坚定地守候在火焰山上。</p>
+<p>&ldquo;悟空，你快下来！&rdquo;唐僧焦急地喊道。</p>
+<p>孙悟空微笑道：&ldquo;师父，您快走吧，这里交给我就行。&rdquo;</p>
+<p>唐僧心有不忍，却也知道孙悟空的决心。他们匆匆离开了火焰山，准备继续前行。</p>
+<p>就在他们欲离开之时，一道金光闪过，孙悟空已经改变形态，化为一只凤凰，翩翩飞起，飞向远方。</p>
+<p>唐僧心中充满感激和感动，对孙悟空默默地祈祷道：&ldquo;悟空，愿你化为凤凰，永远飞翔在蓝天之上，守护我们的取经之路。&rdquo;</p>
+<p>&nbsp;</p>
+<p><img src="/o/esmv40_saas/core/api/v2/file/download/?file_record_id=178" alt="" width="435" height="435" /><img src="/o/esmv40_saas/core/api/v2/file/download/?file_record_id=179" alt="" width="698" height="435" /></p>
+<p>&nbsp;</p>
+<table style="border-collapse: collapse; width: 100.011%; height: 105.555px;" border="1">
+<tbody>
+<tr style="height: 21.1111px;">
+<td style="width: 9.97558%; height: 21.1111px;">学生姓名</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 性别</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 年龄</td>
+<td style="width: 9.97558%; height: 21.1111px;">爱好</td>
+<td style="width: 9.97558%; height: 21.1111px;">电话</td>
+<td style="width: 9.97558%; height: 21.1111px;">QQ</td>
+<td style="width: 9.97558%; height: 21.1111px;">学历</td>
+<td style="width: 9.97558%; height: 21.1111px;">毕业院校</td>
+<td style="width: 9.97558%; height: 21.1111px;">是否已婚</td>
+<td style="width: 10.0255%; height: 21.1111px;">家庭住址</td>
+</tr>
+<tr style="height: 21.1111px;">
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; &nbsp; &nbsp;张三</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; 男</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; 18</td>
+<td style="width: 9.97558%; height: 21.1111px;">唱，跳，RAP，打篮球</td>
+<td style="width: 9.97558%; height: 21.1111px;">15612301230</td>
+<td style="width: 9.97558%; height: 21.1111px;">156789420</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; 专科</td>
+<td style="width: 9.97558%; height: 21.1111px;">广东工业大学</td>
+<td style="width: 9.97558%; height: 21.1111px;">是</td>
+<td style="width: 10.0255%; height: 21.1111px;">广东省河源市河西区A县B街道CCC号楼05室</td>
+</tr>
+<tr style="height: 21.1111px;">
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; &nbsp; &nbsp;李四</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; 男</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; 19</td>
+<td style="width: 9.97558%; height: 21.1111px;">羽毛球</td>
+<td style="width: 9.97558%; height: 21.1111px;">15712301450</td>
+<td style="width: 9.97558%; height: 21.1111px;">145621470</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; 本科</td>
+<td style="width: 9.97558%; height: 21.1111px;">深圳大学</td>
+<td style="width: 9.97558%; height: 21.1111px;">是</td>
+<td style="width: 10.0255%; height: 21.1111px;">深圳南山街道办</td>
+</tr>
+<tr style="height: 21.1111px;">
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; &nbsp; 王五</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; 女</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; 18</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp;乒乓</td>
+<td style="width: 9.97558%; height: 21.1111px;">18615620130</td>
+<td style="width: 9.97558%; height: 21.1111px;">568704420</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; 本科在读</td>
+<td style="width: 9.97558%; height: 21.1111px;">哈尔滨工业大学</td>
+<td style="width: 9.97558%; height: 21.1111px;">否</td>
+<td style="width: 10.0255%; height: 21.1111px;">&nbsp;</td>
+</tr>
+<tr style="height: 21.1111px;">
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; &nbsp; 杨二郎</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; 先天圣体</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; 99999</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp;打猴子</td>
+<td style="width: 9.97558%; height: 21.1111px;">095-1785620</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp;-</td>
+<td style="width: 9.97558%; height: 21.1111px;">&nbsp; 硕士</td>
+<td style="width: 9.97558%; height: 21.1111px;">哈弗大学体育学院</td>
+<td style="width: 9.97558%; height: 21.1111px;">否</td>
+<td style="width: 10.0255%; height: 21.1111px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<pre class="language-python"><code>    # 字段：单选级联
+    def key_cascade_field(self, type_args, option: str, search_for: str = None):
+        """
+        :param type_args: 定位复合参数
+        :param option: 选项，支持两种格式：a.数字；b.具体选项路径，如：陆路&gt;汽车类&gt;卡车
+        :param search_for: 搜索关键字
+        :return:
+        """
+        # 字段
+        field = self.located_field(type_args)
+        field.click()
+
+        # 级联选框中，所有的子元素位置
+        # 搜索框
+        search_input_loc = './/div[@class="bk-cascade-name"]/input'
+        # 搜索后的ul
+        ul_loc = '//*[@class="bk-cascade-options"]/div[1]/ul[@class="bk-cascade-panel-ul"]'
+
+        try:
+            if search_for is not None:
+                input_ele = field.find_element(By.XPATH, search_input_loc)
+                input_ele.send_keys(search_for)
+                ul_ele = field.find_element(By.XPATH, ul_loc)
+                lis = ul_ele.find_elements(By.TAG_NAME, 'li')
+                lis[int(option) - 1].click()
+            else:
+                option_parser = [node.strip() for node in option.split('&gt;')]
+                # 级联下拉框的整体
+                panels_wrap_loc = '//*[@class="bk-cascade-options"]'
+                panel_structure = '/div[@class="bk-cascade-panel"]'
+                for level, op_name in enumerate(option_parser, 1):
+                    # 拼接出每级panel的ul
+                    current_ul_loc = panels_wrap_loc + panel_structure * level + '/ul'
+                    ul_ele = field.find_element(By.XPATH, current_ul_loc)
+                    current_li = [li for li in ul_ele.find_elements(By.TAG_NAME, 'li') if op_name in li.text][0]
+                    current_li.click()
+        except:
+            raise
+        finally:
+            self._back_up(field)</code></pre>

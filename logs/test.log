@@ -1,0 +1,42 @@
+[2024-10-17 11:48:03] INFO [D:\Myset\auto_uitest_hjt\base\code\excel_writer.py::excel_transfer_python:105] 一共搜集到1个excel用例文件, 如下：test_hjt_topology
+[2024-10-17 11:48:03] INFO [D:\Myset\auto_uitest_hjt\base\code\excel_writer.py::excel_transfer_python:106] 开始创建python测试文件...
+[2024-10-17 11:48:03] INFO [D:\Myset\auto_uitest_hjt\base\data.py::data_by_excel:47] 工作表【debug】：包含1个用例
+[2024-10-17 11:48:03] INFO [D:\Myset\auto_uitest_hjt\base\data.py::data_by_excel:47] 工作表【运营审计】：包含0个用例
+[2024-10-17 11:48:03] INFO [D:\Myset\auto_uitest_hjt\base\code\excel_writer.py::mk_pngs_dir:27] 目录 'D:/Myset/auto_uitest_hjt/reports/pngs/Test_tjzj_sxgfxgz' 已被创建.
+[2024-10-17 11:48:03] INFO [D:\Myset\auto_uitest_hjt\base\code\cls_writer.py::create_class_py:38] 【Test_tjzj_sxgfxgz】类，已写入文件【test_tjzj_sxgfxgz.py】
+[2024-10-17 11:48:03] INFO [D:\Myset\auto_uitest_hjt\base\code\excel_writer.py::excel_transfer_python:109] 文件列表: [WindowsPath('D:/Myset/auto_uitest_hjt/testcases/test_hjt_topology.xlsx')]
+[2024-10-17 11:48:03] INFO [D:\Myset\auto_uitest_hjt\base\code\excel_writer.py::excel_transfer_python:110] python测试文件创建完成！
+[2024-10-17 11:48:25] WARNING [D:\Programs\Python\Python39\lib\site-packages\selenium\webdriver\common\selenium_manager.py::run:135] There was an error managing chrome (error sending request for url (http://118.24.147.95:8086/chrome/known-good-versions-with-downloads.json): error trying to connect: tcp connect error: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 (os error 10060)); using driver found in the cache
+[2024-10-17 11:48:29] INFO [D:\Myset\auto_uitest_hjt\base\kdt_lib\base_mixin.py::find_element:65] 【input】定位成功
+[2024-10-17 11:48:29] INFO [D:\Myset\auto_uitest_hjt\base\kdt_lib\base_mixin.py::find_element:65] 【input】定位成功
+[2024-10-17 11:48:29] INFO [D:\Myset\auto_uitest_hjt\base\kdt_lib\base_mixin.py::find_element:65] 【button】定位成功
+[2024-10-17 11:48:33] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:23] 步骤1：等待 ==> 开始执行...
+[2024-10-17 11:48:33] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:28] 关键字：【sleep】, 参数：(2,)
+[2024-10-17 11:48:35] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:48] 步骤1.等待  ==> 执行完毕!
+[2024-10-17 11:48:35] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:23] 步骤2：进入运营模块 ==> 开始执行...
+[2024-10-17 11:48:35] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:28] 关键字：【click】, 参数：("//span[text()='运营']",)
+[2024-10-17 11:48:35] INFO [D:\Myset\auto_uitest_hjt\base\kdt_lib\base_mixin.py::find_element:65] 【span】定位成功
+[2024-10-17 11:48:35] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:48] 步骤2.进入运营模块  ==> 执行完毕!
+[2024-10-17 11:48:35] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:23] 步骤3：展开侧边 ==> 开始执行...
+[2024-10-17 11:48:35] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:28] 关键字：【click】, 参数：("//span[@class='footer-icon-svg']",)
+[2024-10-17 11:48:35] INFO [D:\Myset\auto_uitest_hjt\base\kdt_lib\base_mixin.py::find_element:65] 【span】定位成功
+[2024-10-17 11:48:36] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:48] 步骤3.展开侧边  ==> 执行完毕!
+[2024-10-17 11:48:36] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:23] 步骤4：点击侧边菜单 ==> 开始执行...
+[2024-10-17 11:48:36] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:28] 关键字：【click】, 参数：("//span[contains(text(), '配置运营规则')]",)
+[2024-10-17 11:48:36] INFO [D:\Myset\auto_uitest_hjt\base\kdt_lib\base_mixin.py::find_element:65] 【span】定位成功
+[2024-10-17 11:48:37] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:48] 步骤4.点击侧边菜单  ==> 执行完毕!
+[2024-10-17 11:48:37] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:23] 步骤5：点击子菜单 ==> 开始执行...
+[2024-10-17 11:48:37] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:28] 关键字：【click】, 参数：("//span[contains(text(), '运营审计规则')]",)
+[2024-10-17 11:48:37] INFO [D:\Myset\auto_uitest_hjt\base\kdt_lib\base_mixin.py::find_element:65] 【span】定位成功
+[2024-10-17 11:48:38] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:48] 步骤5.点击子菜单  ==> 执行完毕!
+[2024-10-17 11:48:38] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:23] 步骤6：点击新增 ==> 开始执行...
+[2024-10-17 11:48:38] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:28] 关键字：【click】, 参数：("//span[contains(text(), '新增')]",)
+[2024-10-17 11:48:38] INFO [D:\Myset\auto_uitest_hjt\base\kdt_lib\base_mixin.py::find_element:65] 【span】定位成功
+[2024-10-17 11:48:39] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:48] 步骤6.点击新增  ==> 执行完毕!
+[2024-10-17 11:48:39] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:23] 步骤7：填写 规则名称 ==> 开始执行...
+[2024-10-17 11:48:39] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:28] 关键字：【text_field】, 参数：("by_parent,//div[@class='report-edit-default']/form,规则名称", 'UiAuto_主机_属性完整')
+[2024-10-17 11:48:40] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:48] 步骤7.填写 规则名称  ==> 执行完毕!
+[2024-10-17 11:48:40] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:23] 步骤8：填写 生效对象 ==> 开始执行...
+[2024-10-17 11:48:40] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:28] 关键字：【select_field】, 参数：("by_parent,//div[@class='report-edit-default']/form,生效对象", '主机')
+[2024-10-17 11:48:40] INFO [D:\Myset\auto_uitest_hjt\base\kdt_lib\base_mixin.py::find_element:65] 【ul】定位成功
+[2024-10-17 11:48:41] INFO [D:\Myset\auto_uitest_hjt\base\code\template\func_template.py::exec_step:48] 步骤8.填写 生效对象  ==> 执行完毕!

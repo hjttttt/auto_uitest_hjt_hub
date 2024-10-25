@@ -1,0 +1,168 @@
+{
+  "uid" : "e906ed93b1fc6ea8",
+  "name" : "进入运营模块",
+  "fullName" : "testcases.tmp.test_tjzj_sxgfxgz.Test_tjzj_sxgfxgz#test_2",
+  "historyId" : "fd8a3223ac78461f102a14aabff8efe3",
+  "time" : {
+    "start" : 1729136915455,
+    "stop" : 1729136915915,
+    "duration" : 460
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1729136884004,
+      "stop" : 1729136884136,
+      "duration" : 132
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup_class",
+    "time" : {
+      "start" : 1729136884136,
+      "stop" : 1729136913098,
+      "duration" : 28962
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入运营模块",
+      "time" : {
+        "start" : 1729136915455,
+        "stop" : 1729136915455,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: key_click() got an unexpected keyword argument 'instance'\n",
+      "statusTrace" : "  File \"D:\\Myset\\auto_uitest_hjt\\base\\code\\template\\func_template.py\", line 36, in exec_step\n    kw_func(*args, instance=instance)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "进入运营模块",
+      "time" : {
+        "start" : 1729136915455,
+        "stop" : 1729136915537,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "28a3bb8dfea0241c",
+      "name" : "进入运营模块",
+      "source" : "28a3bb8dfea0241c.png",
+      "type" : "image/png",
+      "size" : 31089
+    }, {
+      "uid" : "4a66f83fb53261e1",
+      "name" : "log",
+      "source" : "4a66f83fb53261e1.txt",
+      "type" : "text/plain",
+      "size" : 513
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "setup_class::0",
+    "time" : {
+      "start" : 1729136921918,
+      "stop" : 1729136924242,
+      "duration" : 2324
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "添加主机_属性规范性规则"
+  }, {
+    "name" : "epic",
+    "value" : "debug"
+  }, {
+    "name" : "tag",
+    "value" : "order(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.tmp"
+  }, {
+    "name" : "suite",
+    "value" : "test_tjzj_sxgfxgz"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_tjzj_sxgfxgz"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TODGQMP2"
+  }, {
+    "name" : "thread",
+    "value" : "18884-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.tmp.test_tjzj_sxgfxgz"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "order(1)" ]
+  },
+  "source" : "e906ed93b1fc6ea8.json",
+  "parameterValues" : [ ]
+}

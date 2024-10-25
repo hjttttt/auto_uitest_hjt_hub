@@ -1,0 +1,4 @@
+INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:23 步骤5：点击子菜单 ==> 开始执行...
+INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:28 关键字：【click】, 参数：("//span[contains(text(), '运营审计规则')]",)
+INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:base_mixin.py:65 【span】定位成功
+INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:48 步骤5.点击子菜单  ==> 执行完毕!

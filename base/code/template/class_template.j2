@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+# Created by 黄景涛
+# DATE 2024/7/5
+
+import time
+import allure
+from pathlib import Path
+
+import pytest
+import logging
+from base.kdt import BaseDriver
+from base.code.template.func_template import exec_step
+
+logger = logging.getLogger(__name__)
+
+
+@pytest.mark.order({{ mark_order }})
+@allure.epic('{{sheet_name}}')  # 对所有用例进行总描述
+@allure.feature('{{flow_name}}')  # 对所有用例进行功能描述
+class {{ class_name }}(BaseDriver):
+
+{%- for method in methods %}
+
+    @allure.title('{{ method.step_name }}')
+    def {{ method.step_func_name }}(self):
+        step = {{ method.step_info}}
+        {%- for line in method.body.splitlines() %}
+        {{ line | indent(4) }}
+        {%- endfor %}
+{%- endfor %}

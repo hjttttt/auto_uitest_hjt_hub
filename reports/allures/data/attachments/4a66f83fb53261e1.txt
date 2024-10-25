@@ -1,0 +1,4 @@
+INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:23 步骤2：进入运营模块 ==> 开始执行...
+INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:28 关键字：【click】, 参数：("//span[text()='运营']",)
+INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:base_mixin.py:65 【span】定位成功
+INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:48 步骤2.进入运营模块  ==> 执行完毕!

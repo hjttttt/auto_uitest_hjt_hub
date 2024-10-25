@@ -1,0 +1,151 @@
+{
+  "uid" : "755c9ce8e9c1bcdb",
+  "name" : "填写 生效对象",
+  "fullName" : "testcases.tmp.test_tjzj_sxgfxgz.Test_tjzj_sxgfxgz#test_8",
+  "historyId" : "00d74b0448ddcaef41fea4cb33cdfb42",
+  "time" : {
+    "start" : 1729136920460,
+    "stop" : 1729136921917,
+    "duration" : 1457
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1729136884004,
+      "stop" : 1729136884136,
+      "duration" : 132
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup_class",
+    "time" : {
+      "start" : 1729136884136,
+      "stop" : 1729136913098,
+      "duration" : 28962
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "填写 生效对象",
+      "time" : {
+        "start" : 1729136920461,
+        "stop" : 1729136921599,
+        "duration" : 1138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "231e38fce31c9eb1",
+      "name" : "填写 生效对象",
+      "source" : "231e38fce31c9eb1.png",
+      "type" : "image/png",
+      "size" : 63168
+    }, {
+      "uid" : "737802ec71f9c994",
+      "name" : "log",
+      "source" : "737802ec71f9c994.txt",
+      "type" : "text/plain",
+      "size" : 569
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "setup_class::0",
+    "time" : {
+      "start" : 1729136921918,
+      "stop" : 1729136924242,
+      "duration" : 2324
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "添加主机_属性规范性规则"
+  }, {
+    "name" : "epic",
+    "value" : "debug"
+  }, {
+    "name" : "tag",
+    "value" : "order(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.tmp"
+  }, {
+    "name" : "suite",
+    "value" : "test_tjzj_sxgfxgz"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_tjzj_sxgfxgz"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TODGQMP2"
+  }, {
+    "name" : "thread",
+    "value" : "18884-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.tmp.test_tjzj_sxgfxgz"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "order(1)" ]
+  },
+  "source" : "755c9ce8e9c1bcdb.json",
+  "parameterValues" : [ ]
+}
