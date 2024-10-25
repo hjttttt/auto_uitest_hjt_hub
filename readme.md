@@ -17,7 +17,7 @@
 |screenshot模块|提供保存PNG截图、PNG截图转gif动图等功能| 在每个test步骤的关键字执行时，截取PNG图片，并把用例中的所有步骤图片生成一个gif动图  |
 
 ### gif动图效果，如下：
-![用例gif动图](/assets/Test_tjzj_sxgfxgz_2024-10-17_114131.gif)
+![用例gif动图](/assets/Test_ywxq_bj_2024-10-23_105036.gif)
 
 ## 三、定开级功能
 
