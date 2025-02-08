@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Case Report</title>
+    <base href="{{ cfg.service_href }}">
+    <style>
+        .hidden { display: none; }
+
+        table {
+          border: 2px solid black;
+          border-collapse: collapse;
+          width: 100%;
+          table-layout: fixed; /* 固定表格布局 */
+        }
+        th, td {
+          border: 2px solid #e3e5e8;
+          padding: 8px;
+          text-align: left;
+          word-wrap: break-word; /* 自动换行 */
+          vertical-align: top;  /* 垂直对齐 */
+        }
+        th:nth-child(1), td:nth-child(1) { width: 20%; }
+        th:nth-child(2), td:nth-child(2) { width: 30%; }
+        th:nth-child(3), td:nth-child(3) { width: 10%; }
+        th:nth-child(4), td:nth-child(4) { width: 10%; }
+        th:nth-child(5), td:nth-child(5) { width: 20%; }
+        th:nth-child(6), td:nth-child(6) { width: 10%; }
+
+        th {
+          font-family: 'Times New Roman';
+          font-size: 20px;
+          font-weight: bold;
+          color: rgba(0,0,0,.6);
+          background-color: #F4F5F8;
+        }
+
+        td {
+          background-color: rgba(244, 245, 248, .2);
+
+        }
+
+        .thumbnail {                        /* 缩略图 */
+          width: 80px;
+          height: 40px;
+          cursor: pointer;
+        }
+        .fullscreen {                       /* 全屏效果 */
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: auto;
+          height: auto;
+          max-width: 80%;
+          max-height: 80%;
+        }
+        .overlay {
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.6);
+          z-index: 1000;
+        }
+        .overlay img {
+          margin: auto;
+          display: block;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 400;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .btn-lg {
+            padding: 5px 25px;
+            font-size: 18px;
+            line-height: 1;
+            border-radius: 6px;
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #337ab7;
+            border-color: #2e6da4;
+        }
+
+        .btn-info {
+            color: #fff;
+            background-color: #2BB4DC;
+            border-color: #46b8da;
+        }
+
+        .btn-warning {
+            color: #fff;
+            background-color: #f0ad4e;
+            border-color: #eea236;
+        }
+
+        .success_rate_100 {
+            //background-color: rgba(0,255,0, .3);
+        }
+
+        .success_rate_not_100 {
+            background-color: rgba(255,0, 0, 0.1);
+        }
+       .concise {
+            background: linear-gradient(to bottom, rgba(147, 237, 200, .5), rgba(147, 237, 200, .1));
+       }
+
+        .title {
+            display: block;
+            text-align: center;
+            margin: 0 0 30px 0;
+            padding: 5px;
+            font-family: 'Times New Roman';
+            font-size: 30px;
+            font-weight: bold;
+            color: rgba(20,0,10,.7);
+        }
+
+        .summary {
+            display: inline-block;
+            padding: 10px;
+            margin: 0 80px 20px 10px;
+            font-family: 'Times New Roman';
+            font-size: 20px;
+            color: rgba(40,20,10,.7);
+        }
+
+    </style>
+</head>
+
+
+<body>
+<div class="concise">
+    <div class="title">
+        <span>{{ summary.title }}</span>
+    </div>
+    <div>
+        <div class="summary">
+            <label>测试人: </label>
+            <span>{{ summary.reporter }}</span>
+        </div>
+        <div class="summary">
+            <label>测试环境: </label>
+            <span>{{ summary.env }}</span>
+        </div>
+        <div class="summary">
+            <label>Saas名称: </label>
+            <span>{{ summary.saas_name }}</span>
+        </div>
+        <div class="summary">
+            <label>测试路径: </label>
+            <span>{{ summary.test_path }}</span>
+        </div>
+        <div class="summary">
+            <label>生成时间: </label>
+            <span>{{ summary.create_time }}</span>
+        </div>
+        <div class="summary">
+            <label>运行耗时: </label>
+            <span>{{ summary.duration_time }}</span>
+        </div>
+        <div class="summary">
+            <label>用例总数: </label>
+            <span>{{ summary.all_flow_counts }}</span>
+        </div>
+        <div class="summary">
+            <label>成功用例: </label>
+            <span>{{ summary.success_flow_counts }}</span>
+        </div>
+        <div class="summary">
+            <label>失败用例: </label>
+            <span>{{ summary.fail_flow_counts }}</span>
+        </div>
+    </div>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <th>文件名称</th>
+            <th>用例名称</th>
+            <th>成功步骤占比</th>
+            <th>完整gif</th>
+            <th>失败步骤</th>
+            <th>失败png</th>
+        </tr>
+        {% for index, item in enumerate(data) %}
+        <tbody>
+        <tr>
+            <td rowspan="{{ item.steps|length + 2 }}">{{
+                item.file_name }}
+            </td>
+            <td rowspan="{{ item.steps|length + 2 }}">{{
+                item.testcase_name }}
+            </td>
+            <td rowspan="{{ item.steps|length + 2 }}" class="success_rate">{{
+                item.success_rate }}
+            </td>
+            <td rowspan="{{ item.steps|length + 2 }}">
+                <img src="{{ item.full_gif }}" alt="GIF" class="thumbnail" onclick="showFullscreen(this)">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button class="btn btn-primary btn-lg" onclick="toggleVisibility(this, '{{ index }}')">展开⬇</button>
+            </td>
+        </tr>
+        {% for step in item.steps %}
+            {% if step.step_id is not none %}
+                <tr id="{{ index }}_{{ step.step_id }}" class="hidden">
+                    <td>{{ step.step_name }}</td>
+                    <td>
+                        {% for gif in step.fail_gif %}
+                        <img src="data:image/png;base64,{{ gif }}" alt="PNG" class="thumbnail" onclick="showFullscreen(this)"><br>
+                        {% endfor %}
+                    </td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+        </tbody>
+        {% endfor %}
+    </table>
+</div>
+
+<div class="overlay" onclick="hideFullscreen()">
+    <img id="fullscreenImg" class="fullscreen">
+</div>
+
+<script>
+        function toggleVisibility(button, fail_step_id) {
+            // 收起展开控制
+            var elements = document.querySelectorAll(`[id^="${fail_step_id}_"]`);
+            elements.forEach(element => {
+                if (element.classList.contains('hidden')) {
+                    element.classList.remove('hidden');
+                } else {
+                    element.classList.add('hidden');
+                }
+            });
+
+            if (button.innerHTML === "展开⬇") {
+                button.innerHTML = "收起⬆";
+                button.classList.remove('btn-primary');
+                button.classList.add('btn-info');
+            } else {
+                button.innerHTML = "展开⬇";
+                button.classList.remove('btn-info');
+                button.classList.add('btn-primary');
+            }
+        }
+
+        function showFullscreen(img) {
+            // 全屏展示gif
+          var fullscreenImg = document.getElementById("fullscreenImg");
+          fullscreenImg.src = img.src;
+          var overlay = document.querySelector(".overlay");
+          overlay.style.display = "block";
+        }
+
+        function hideFullscreen() {
+            // 取消全屏gif
+          var overlay = document.querySelector(".overlay");
+          overlay.style.display = "none";
+        }
+
+        function modify_background(){
+            //修改元素背景色
+            // 获取所有的td元素，class 为 "success_rate"
+            const tdElements = document.querySelectorAll('td.success_rate');
+
+            // 创建Set,来存储唯一的tbody元素
+            const successTbodyElements = new Set();
+            const failTbodyElements = new Set();
+
+            // 遍历找到的 td 元素并获取祖先标签tbody
+            tdElements.forEach(td => {
+                const tbody = td.closest('tbody'); // 找到该td的祖先元素tbody
+                if (tbody) {
+                    if (td.innerText === "100%"){
+                        successTbodyElements.add(tbody);
+                    } else {
+                        failTbodyElements.add(tbody);
+                    }
+                };
+            });
+
+            // 将 Set 转换为数组
+            const successTbodyList = Array.from(successTbodyElements);
+            const failTbodyList = Array.from(failTbodyElements);
+            successTbodyList.forEach(tbody => {
+                tbody.classList.add('success_rate_100');
+            })
+            failTbodyList.forEach(tbody => {
+                tbody.classList.add('success_rate_not_100');
+            })
+
+        }
+
+        modify_background();
+
+
+
+
+
+
+
+</script>
+
+</body>
+
+</html>

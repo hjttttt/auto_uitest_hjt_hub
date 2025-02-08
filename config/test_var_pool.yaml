@@ -1,0 +1,18 @@
+Test_xzyw.9: UI自动化_业务_2025-02-07_183330
+biz_download_excel: biz_download.xlsx
+biz_template_excel: biz_template_2025-1-6.xlsx
+cmodel_template_excel: automodule_893_template_2025-1-6.xlsx
+common_user: zhangsan
+host_asst_model1: 测一测
+host_download_excel: host_download.xlsx
+host_template_excel: host_template_2025-1-6.xlsx
+inner_ip_config:
+  counter: 170.0.0.240
+  range: 170.xx.xx.xx
+organization_field_name: 测试组
+organization_field_tree_id1: //*[@id="bk-big-tree-0-node-5"]
+organization_field_tree_id2: //*[@id="bk-big-tree-0-node-1"]
+universal_model_id: automodule_893
+universal_model_name: auto模型_893
+user_field1: 审批人
+user_field2: 张三

@@ -1,0 +1,5 @@
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:25 步骤11：搜索-实例名选择 ==> 开始执行...
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:33 关键字：group_select_field, 参数：('by_loc,//div[@data-placeholder="请选择"]', 'ww模型_11102::实例ID')
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:base_mixin.py:55 【div】定位成功
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:base_mixin.py:55 【ul】定位成功
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:51 步骤11.搜索-实例名选择  ==> 执行完毕!

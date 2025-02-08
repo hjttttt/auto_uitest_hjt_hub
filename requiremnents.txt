@@ -1,6 +1,12 @@
 webdriver-helper
+webdriver_manager
 pytest
-pytest-rerunfailures
+selenium
 allure-pytest
 openpyxl
 pytest-order
+pycryptodomex
+pillow
+jinja2
+pypinyin
+pathlib

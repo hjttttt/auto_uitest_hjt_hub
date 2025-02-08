@@ -1,15 +1,6 @@
-class A:
+search_for = 0
 
-    @classmethod
-    def f1(cls):
-        print('f1')
-
-    def f2(self):
-        print('f2')
-
-
-if __name__ == '__main__':
-    a = A()
-
-    a.f1()
-    a.f2()
+if search_for:
+    print(1)
+else:
+    print(0)

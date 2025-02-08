@@ -1,0 +1,4 @@
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:25 步骤6：勾选最后一个实例 ==> 开始执行...
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:33 关键字：click, 参数：('//main/div/section/main/ul/li[last()]/div/label',)
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:base_mixin.py:55 【label】定位成功
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:51 步骤6.勾选最后一个实例  ==> 执行完毕!

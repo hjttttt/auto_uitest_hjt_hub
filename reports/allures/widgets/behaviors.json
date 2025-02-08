@@ -1,13 +1,13 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "4ed900c273d3b315278caf2e354746df",
-    "name" : "debug",
+    "uid" : "f11872ec749beeacee5cc67f5f15abb7",
+    "name" : "debug (2)",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }

@@ -1,4 +1,0 @@
-INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:23 步骤8：填写 生效对象 ==> 开始执行...
-INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:28 关键字：【select_field】, 参数：("by_parent,//div[@class='report-edit-default']/form,生效对象", '主机')
-INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:base_mixin.py:65 【ul】定位成功
-INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:48 步骤8.填写 生效对象  ==> 执行完毕!

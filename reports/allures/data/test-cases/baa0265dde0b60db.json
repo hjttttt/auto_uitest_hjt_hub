@@ -1,0 +1,168 @@
+{
+  "uid" : "baa0265dde0b60db",
+  "name" : "进入新增报表页面",
+  "fullName" : "testcases.tmp.test_common_user.test_xzbb.Test_xzbb#test_2",
+  "historyId" : "ac579104b59994f2e7ee55f4f2314376",
+  "time" : {
+    "start" : 1738839590208,
+    "stop" : 1738839591199,
+    "duration" : 991
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1738839579348,
+      "stop" : 1738839579531,
+      "duration" : 183
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup_class",
+    "time" : {
+      "start" : 1738839579531,
+      "stop" : 1738839587783,
+      "duration" : 8252
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入新增报表页面",
+      "time" : {
+        "start" : 1738839590211,
+        "stop" : 1738839590211,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: key_get() got an unexpected keyword argument 'instance'\n",
+      "statusTrace" : "  File \"D:\\项目资料\\auto\\acmdb_uitest_6.x\\base\\_code\\template\\func_template.py\", line 39, in exec_step\n    kw_func(*args, instance=instance)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "进入新增报表页面",
+      "time" : {
+        "start" : 1738839590211,
+        "stop" : 1738839590223,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fead13d139bd0f71",
+      "name" : "进入新增报表页面",
+      "source" : "fead13d139bd0f71.png",
+      "type" : "image/png",
+      "size" : 60713
+    }, {
+      "uid" : "f58d9ed66ce50bf7",
+      "name" : "log",
+      "source" : "f58d9ed66ce50bf7.txt",
+      "type" : "text/plain",
+      "size" : 461
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_class::0",
+    "time" : {
+      "start" : 1738839718560,
+      "stop" : 1738839718730,
+      "duration" : 170
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "debug (2)"
+  }, {
+    "name" : "feature",
+    "value" : "新增报表"
+  }, {
+    "name" : "tag",
+    "value" : "order(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.tmp.test_common_user"
+  }, {
+    "name" : "suite",
+    "value" : "test_xzbb"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_xzbb"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TODGQMP2"
+  }, {
+    "name" : "thread",
+    "value" : "15892-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.tmp.test_common_user.test_xzbb"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "order(1)" ]
+  },
+  "source" : "baa0265dde0b60db.json",
+  "parameterValues" : [ ]
+}

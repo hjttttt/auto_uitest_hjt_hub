@@ -1,4 +1,0 @@
-INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:23 步骤6：点击新增 ==> 开始执行...
-INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:28 关键字：【click】, 参数：("//span[contains(text(), '新增')]",)
-INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:base_mixin.py:65 【span】定位成功
-INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:48 步骤6.点击新增  ==> 执行完毕!

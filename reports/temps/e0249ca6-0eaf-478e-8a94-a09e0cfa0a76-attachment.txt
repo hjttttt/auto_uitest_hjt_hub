@@ -1,0 +1,4 @@
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:25 步骤4：点击选择起点实例 ==> 开始执行...
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:33 关键字：click, 参数：('//div/span[2]//span[text()=" 选择实例 "]',)
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:base_mixin.py:55 【span】定位成功
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:51 步骤4.点击选择起点实例  ==> 执行完毕!

@@ -1,23 +1,30 @@
 # 框架简介
 
 ## 一、运行流程图
-![流程图](/assets/%E8%BF%90%E8%A1%8C%E5%8E%9F%E7%90%86%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
-
-## 二、框架级功能
-
-| 功能名称 | 实现原理                                                                 | 作用                                              |
-|--------|----------------------------------------------------------------------|-------------------------------------------------|
-|解析excel用例| 利用openpyxl库，读取excel数据，并编写函数解析特定数据，构造出固定格式的数据结构，供test函数模板和Test类模板调用填充 | 读取excel中的用例，并解析构造为固定格式的数据结构（一般为json对象）          |
-|test_func模板| 预编写test函数模板, 给自动生成的test方法，提供模板代码块| 提供统一的test方法代码体，也便于维护                            |
-|Test类模板 | 利用jinja2库，构造一个.j2模板文件来动态创建Test类的代码体| 将excel中的每个流程用例，自动转换为python的Test类                |
-|BaseDriver基类| 在基类中定义好Webdriver实例的初始化、前置操作、后置操作 | 供Test类继承使用，eg: 执行每条用例前，需要登录并窗口最大化；执行完毕后，需要关闭浏览器 |
-|KeyWordLib类|编写一些通用的Webdriver操作，eg(二次包装): click、input、find_element、sleep_until_ele等| 该类中，封装一些通用的浏览器操作做为关键字，供test步骤调用                 |
-|logger模块|比较简单，略过| 记录test方法的执行日志                                   |
-|auth模块|授权相关，eg:自动登录、登录加密、用户cookie获取、token获取| 调用登录接口，登录后获取到用户的身份认证信息，实现”切换用户“关键字              |
-|screenshot模块|提供保存PNG截图、PNG截图转gif动图等功能| 在每个test步骤的关键字执行时，截取PNG图片，并把用例中的所有步骤图片生成一个gif动图  |
+![流程图](/assets/框架架构图.png)
 
 ### gif动图效果，如下：
 ![用例gif动图](/assets/Test_ywxq_bj_2024-10-23_105036.gif)
+
+### Html报告效果，如下：
+![用例gif动图](/assets/html截图.png)
+
+## 二、框架级功能
+
+| 功能名称          | 实现原理                                                                  | 作用                                              |
+|---------------|-----------------------------------------------------------------------|-------------------------------------------------|
+| 解析excel用例     | 利用openpyxl库，读取excel数据，并编写函数解析特定数据，构造出固定格式的数据结构，供test函数模板和Test类模板调用填充  | 读取excel中的用例，并解析构造为固定格式的数据结构（一般为json对象）          |
+| test_func模板   | 预编写test函数模板, 给自动生成的test方法，提供模板代码块                                     | 提供统一的test方法代码体，也便于维护                            |
+| Test类模板       | 利用jinja2库，构造一个.j2模板文件来动态创建Test类的代码体                                   | 将excel中的每个流程用例，自动转换为python的Test类                |
+| BaseDriver基类  | 在基类中定义好Webdriver实例的初始化、前置操作、后置操作                                      | 供Test类继承使用，eg: 执行每条用例前，需要登录并窗口最大化；执行完毕后，需要关闭浏览器 |
+| components组件库 | 按组件维度，封装每个组件的属性、功能操作                                                  | 供关键字直接调用组件，也便于维护和拓展                             |
+| KeyWordLib类   | 编写一些通用的Webdriver操作，eg(二次包装): click、input、find_element、sleep_until_ele等 | 该类中，封装一些通用的浏览器操作做为关键字，供test步骤调用                 |
+| logger模块      | 比较简单，略过                                                               | 记录test方法的执行日志                                   |
+| auth模块        | 授权相关，eg:自动登录、登录加密、用户cookie获取、token获取                                  | 调用登录接口，登录后获取到用户的身份认证信息，实现”切换用户“关键字              |
+| screenshot模块  | 提供保存PNG截图、PNG截图转gif动图等功能                                              | 在每个test步骤的关键字执行时，截取PNG图片，并把用例中的所有步骤图片生成一个gif动图  |
+| report模块      | 收集测试过程、结果数据，渲染生成HTML报告/text报告                                         | 更直观感知测试结果gif、报错截图                               |
+| variable模块    | 采用变量占位填充方式，对excel中的关键字参数提前做变量化引用                                      | 方便多个用例间的变量传递，调用函数等                              |
+
 
 ## 三、定开级功能
 
@@ -48,6 +55,25 @@
 
 ### excel调试模式：
     若想要调试运行一部分步骤，可通过修改步骤id=-999，阻止后续步骤生成test用例。
+
+
+## Driver驱动
+### 1、自动安装并使用(推荐)：
+     pip install webdriver_manager -i https://pypi.tuna.tsinghua.edu.cn/simple
+    
+    ```
+    from selenium import webdriver
+    from webdriver_manager.chrome import ChromeDriverManager
+    from selenium.webdriver.chrome.service import Service
+
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    ```
+
+
+
+### 2、手动安装：ChromeDriver驱动仓库（国内最新）
+    https://registry.npmmirror.com/binary.html?path=chrome-for-testing
+    https://storage.googleapis.com/chrome-for-testing-public/{{ 版本号 }}/win64/chromedriver-win64.zip
 
 
 

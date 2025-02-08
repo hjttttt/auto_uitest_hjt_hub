@@ -1,0 +1,4 @@
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:25 步骤12：搜索-实例名输入 ==> 开始执行...
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:33 关键字：input_and_enter, 参数：('//input[@placeholder="搜索"]', '1234大啊')
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:base_mixin.py:55 【input】定位成功
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:51 步骤12.搜索-实例名输入  ==> 执行完毕!

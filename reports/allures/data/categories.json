@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=122.0.6261.129)\nStacktrace:\n\tGetHandleVerifier [0x00AB8D03+51395]\n\t(No symbol) [0x00A25F61]\n\t(No symbol) [0x008DE004]\n\t(No symbol) [0x009171C7]\n\t(No symbol) [0x0090E54E]\n\t(No symbol) [0x00933E8C]\n\t(No symbol) [0x0090DF7E]\n\t(No symbol) [0x00934124]\n\t(No symbol) [0x0094A570]\n\t(No symbol) [0x00933C26]\n\t(No symbol) [0x0090C629]\n\t(No symbol) [0x0090D40D]\n\tGetHandleVerifier [0x00E368D3+3712147]\n\tGetHandleVerifier [0x00E75CBA+3971194]\n\tGetHandleVerifier [0x00E70FA8+3951464]\n\tGetHandleVerifier [0x00B69D09+776393]\n\t(No symbol) [0x00A31734]\n\t(No symbol) [0x00A2C618]\n\t(No symbol) [0x00A2C7C9]\n\t(No symbol) [0x00A1DDF0]\n\tBaseThreadInitThunk [0x75987BA9+25]\n\tRtlInitializeExceptionChain [0x77DBC0CB+107]\n\tRtlClearBits [0x77DBC04F+191]",
+      "children" : [ {
+        "name" : "填写查询对象",
+        "uid" : "3c8d9fa41082e9ff",
+        "parentUid" : "f1dd2b73a29d28f1e88678e368c2574f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1738839592734,
+          "stop" : 1738839716981,
+          "duration" : 124247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1dd2b73a29d28f1e88678e368c2574f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

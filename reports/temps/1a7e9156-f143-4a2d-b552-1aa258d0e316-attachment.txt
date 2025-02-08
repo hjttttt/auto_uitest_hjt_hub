@@ -1,0 +1,3 @@
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:25 步骤13：等待 ==> 开始执行...
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:33 关键字：sleep, 参数：(2,)
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:51 步骤13.等待  ==> 执行完毕!

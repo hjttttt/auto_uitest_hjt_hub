@@ -1,0 +1,95 @@
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:25 步骤5：填写查询对象 ==> 开始执行...
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:33 关键字：base_select_field, 参数：('by_loc,//form[3]/div/div/div/div/div/div/div', 2, '主机')
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:base_mixin.py:55 【div】定位成功
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:base_mixin.py:55 【ul】定位成功
+ERROR    D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:44 执行出错
+Traceback (most recent call last):
+  File "D:\项目资料\auto\acmdb_uitest_6.x\base\_code\template\func_template.py", line 39, in exec_step
+    kw_func(*args, instance=instance)
+  File "D:\项目资料\auto\acmdb_uitest_6.x\base\kdt_lib\fields_mixin.py", line 99, in key_base_select_field
+    component.input_box(field, search_for=search_for, options=options, auto_unfold=False, instance=instance)
+  File "D:\项目资料\auto\acmdb_uitest_6.x\base\kdt_lib\components.py", line 635, in input_box
+    self.handle_options(options, lis, instance=None)
+  File "D:\项目资料\auto\acmdb_uitest_6.x\base\kdt_lib\components.py", line 671, in handle_options
+    target_lis[0].click()
+  File "D:\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 394, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "D:\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Stacktrace:
+	GetHandleVerifier [0x00AB8D03+51395]
+	(No symbol) [0x00A25F61]
+	(No symbol) [0x008DE004]
+	(No symbol) [0x009171C7]
+	(No symbol) [0x0090E54E]
+	(No symbol) [0x00933E8C]
+	(No symbol) [0x0090DF7E]
+	(No symbol) [0x00934124]
+	(No symbol) [0x0094A570]
+	(No symbol) [0x00933C26]
+	(No symbol) [0x0090C629]
+	(No symbol) [0x0090D40D]
+	GetHandleVerifier [0x00E368D3+3712147]
+	GetHandleVerifier [0x00E75CBA+3971194]
+	GetHandleVerifier [0x00E70FA8+3951464]
+	GetHandleVerifier [0x00B69D09+776393]
+	(No symbol) [0x00A31734]
+	(No symbol) [0x00A2C618]
+	(No symbol) [0x00A2C7C9]
+	(No symbol) [0x00A1DDF0]
+	BaseThreadInitThunk [0x75987BA9+25]
+	RtlInitializeExceptionChain [0x77DBC0CB+107]
+	RtlClearBits [0x77DBC04F+191]
+
+ERROR    D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:54 步骤5.填写查询对象  ==> 执行完毕!
+Traceback (most recent call last):
+  File "D:\项目资料\auto\acmdb_uitest_6.x\base\_code\template\func_template.py", line 45, in exec_step
+    raise e
+  File "D:\项目资料\auto\acmdb_uitest_6.x\base\_code\template\func_template.py", line 39, in exec_step
+    kw_func(*args, instance=instance)
+  File "D:\项目资料\auto\acmdb_uitest_6.x\base\kdt_lib\fields_mixin.py", line 99, in key_base_select_field
+    component.input_box(field, search_for=search_for, options=options, auto_unfold=False, instance=instance)
+  File "D:\项目资料\auto\acmdb_uitest_6.x\base\kdt_lib\components.py", line 635, in input_box
+    self.handle_options(options, lis, instance=None)
+  File "D:\项目资料\auto\acmdb_uitest_6.x\base\kdt_lib\components.py", line 671, in handle_options
+    target_lis[0].click()
+  File "D:\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 394, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "D:\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=122.0.6261.129)
+Stacktrace:
+	GetHandleVerifier [0x00AB8D03+51395]
+	(No symbol) [0x00A25F61]
+	(No symbol) [0x008DE004]
+	(No symbol) [0x009171C7]
+	(No symbol) [0x0090E54E]
+	(No symbol) [0x00933E8C]
+	(No symbol) [0x0090DF7E]
+	(No symbol) [0x00934124]
+	(No symbol) [0x0094A570]
+	(No symbol) [0x00933C26]
+	(No symbol) [0x0090C629]
+	(No symbol) [0x0090D40D]
+	GetHandleVerifier [0x00E368D3+3712147]
+	GetHandleVerifier [0x00E75CBA+3971194]
+	GetHandleVerifier [0x00E70FA8+3951464]
+	GetHandleVerifier [0x00B69D09+776393]
+	(No symbol) [0x00A31734]
+	(No symbol) [0x00A2C618]
+	(No symbol) [0x00A2C7C9]
+	(No symbol) [0x00A1DDF0]
+	BaseThreadInitThunk [0x75987BA9+25]
+	RtlInitializeExceptionChain [0x77DBC0CB+107]
+	RtlClearBits [0x77DBC04F+191]

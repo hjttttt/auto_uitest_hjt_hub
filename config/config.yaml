@@ -1,0 +1,55 @@
+env: "test"
+saas_name: "cc-portal_saas"
+login_info: {
+  "login_url": "http://paas.{env}.com/login/?is_from_logout=1&c_url=http://paas.{env}.com/o/{saas_name}/",
+  "user_input": "/html/body/div[1]/div/div[2]/form/div[2]/div[1]/input",
+  "password_input": "/html/body/div[1]/div/div[2]/form/div[2]/div[2]/input",
+  "login_button": "//*[@class='login-btn']",
+  "username": "product",
+  "password": "Bk@123456"
+}
+saas_base_url: "http://paas.{env}.com/o/{saas_name}"
+saas_routes: {
+}
+
+init_excel: {
+  "host_template_excel": "assets/host_template_2025-1-6.xlsx",
+  "biz_template_excel": "assets/biz_template_2025-1-6.xlsx",
+  "cmodel_template_excel": "assets/automodule_893_template_2025-1-6.xlsx",
+}
+
+pngs_info: "reports/pngs"
+gifs_info: "reports/gifs"
+
+report_info: {
+  "report_path": "reports",
+  "html_report_name": "report.html",
+  "text_report_name": "report.txt",
+  "title": "UI-自 动 化 测 试 报 告",
+  "reporter": "黄景涛",
+  "browser_name": "google",
+  "workspace": "static/acmdb",
+#  "service_href": "http://10.11.25.35:5000/",
+  "service_href": "http://10.11.40.200:5000/",
+  "report_link": "{service_href}{workspace}/reports/report.html",
+  "builder_report_path": 'D:/projects/Flask_app/{workspace}/reports'
+  # "builder_report_path": 'C:/Users/admin/Desktop/Flask_app/{workspace}/reports'
+}
+
+email:
+  is_send: False
+  smtp_server: smtp.exmail.qq.com
+  subject: 配置管理中心-UI自动化测试报告
+  sender_email: hangjt@canway.net
+  sender_password: 123456@Ttt
+  recipient_email: hangjt@canway.net,sx_tansy@canway.net
+#  recipient_email: hangjt@canway.net
+
+wechat:
+  is_send: False
+  cmdb_robot_key: 2d054499-9c59-4fa0-91a0-10474e5e5e09
+  little_team_key: 1f2faf1c-593f-4c7a-ba27-35657b9107e7
+
+
+
+

@@ -1,3 +1,0 @@
-INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:23 步骤7：填写 规则名称 ==> 开始执行...
-INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:28 关键字：【text_field】, 参数：("by_parent,//div[@class='report-edit-default']/form,规则名称", 'UiAuto_主机_属性完整')
-INFO     D:\Myset\auto_uitest_hjt\utils\logger\custom_logger.py:func_template.py:48 步骤7.填写 规则名称  ==> 执行完毕!

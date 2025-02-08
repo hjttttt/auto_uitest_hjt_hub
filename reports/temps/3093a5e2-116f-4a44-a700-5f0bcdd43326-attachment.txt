@@ -1,0 +1,3 @@
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:25 步骤8：等待加载完成 ==> 开始执行...
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:33 关键字：sleep_until_unloading, 参数：('//div[@class="filter-content"]/div[@class="bk-loading"]',)
+INFO     D:\项目资料\auto\acmdb_uitest_6.x\utils\log_helper\logger.py:func_template.py:51 步骤8.等待加载完成  ==> 执行完毕!

@@ -4,6 +4,7 @@
 import re
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
 
 from base.kdt_lib.base_mixin import BaseMiXin
 
@@ -72,6 +73,34 @@ class LocalMiXin(BaseMiXin):
         field = label.find_element(By.XPATH, './parent::div')
         return field
 
+    # 内置，按实例属性名定位
+    def _location_by_att_name(self, field_att_name: str):
+        """
+        实例新增页面的属性定位
+        :param self:
+        :param field_att_name: 实例属性的名称
+        :return:
+        """
+        # 配置管理中心V6.x  --实例属性详情页\实例新增页\批量更新页
+        span_name_loc = "//div[@class='property-label-wrapper']/span[contains(@class, 'property-label')]"
+        spans = self.driver.find_elements(By.XPATH, span_name_loc)
+        target_span = None
+        for s in spans:
+            if field_att_name in s.text:
+                target_span = s
+                break
+
+        if target_span is None:
+            raise Exception(f'未找到名称为【{field_att_name}】的字段！')
+
+        # 向上找 “div>div>span” span的父标签
+        label = target_span.find_element(By.XPATH, './ancestor::div[1]')
+        field = label.find_element(By.XPATH, './parent::div')
+
+        # 不包含label的文本域
+        field_area = field.find_element(By.XPATH, './/div[@class="property-value"]')
+        return field_area
+
     # 内置，按普通方式定位字段
     def _location_by_loc(self, loc):
         """
@@ -103,3 +132,32 @@ class LocalMiXin(BaseMiXin):
         return field
 
 
+class AttrLocalMiXin(LocalMiXin):
+    """ 定开：模型实例的属性定位 """
+
+    def _location_by_att_name(self, field_att_name: str):
+        """
+        实例属性详情页中的属性定位
+        :param field_att_name: 实例属性的名称
+        :return: 属性字段的名称元素
+        """
+        att_name_loc = "//div[@class='property-name']"  # 配置管理中心V6.x  --实例属性详情页
+        property_names = self.driver.find_elements(By.XPATH, att_name_loc)
+        target_name_ele = None
+        for n in property_names:
+            if field_att_name in n.text:
+                target_name_ele = n
+                break
+
+        if target_name_ele is None:
+            raise Exception(f'未找到名称为【{field_att_name}】的属性！')
+
+        try:
+            # 向上找父标签  -- 实例列表中，实例属性详情页
+            field = target_name_ele.find_element(By.XPATH, './parent::form')
+        except NoSuchElementException:
+            # 向上找父标签  -- 拓扑节点的实例属性详情页
+            field = target_name_ele.find_element(By.XPATH, './parent::div')
+        except Exception:
+            raise
+        return field
